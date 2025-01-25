@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+header{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: teal;
+    color: white;
+}
+.header_img{
+    width: 10%;
+}
+.header_img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.header_info{
+    width: 50%;
+}
+section{
+    display: flex;
+}
+aside{
+    width: 25%;
+    padding: 50px;
+    /* background-color: aquamarine; */
+}
+article{
+    width: 75%;
+    /* background-color: blueviolet; */
+}
+h2{
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+}
+.contact div img{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+.langs meter{
+    width: 100%;
+    height: 30px;
+}
+.skills-text{
+    display: flex;
+
+}
+.skills-text span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 20px;
+}
+#l1{
+    border: 15px solid red;
+    border-left: 15px solid rgb(197, 197, 202);
+}
+#l2{
+    border: 15px solid orangered;
+    border-left: 15px solid rgb(197, 197, 202);
+    border-top: 15px solid rgb(197, 197, 202);
+}
+#l3{
+    border: 15px solid rgb(191, 255, 0);
+    border-left: 15px solid rgb(197, 197, 202);
+    border-bottom: 15px solid rgb(197, 197, 202);
+}
+#l4{
+    border: 15px solid rgb(197, 197, 202);
+    border-right: 15px solid mediumpurple;
+}
+
+.online-info-figure{
+    display: flex;
+    justify-content: space-evenly;
+}
+figure{
+    display: flex;
+}
+figcaption{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+article{
+    padding: 50px;
+}
+article h1{
+    width: 60%;
+    padding: 10px;
+    margin-left: 50px;
+    background-color: teal;
+    font-size: 40px;
+    color: white;
+}
+article div p{
+    padding: 50px;
+}
+footer{
+    display: flex;
+    height: 30px;
+}
+footer #d1{
+    width: calc(100%/3);
+    background-color: orangered;
+
+}
+footer #d2{
+    width: calc(100%/3);
+    background-color: teal;
+
+}
+footer #d3{
+    width: calc(100%/3);
+    background-color: orange;
+
+}
